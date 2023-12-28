@@ -1,0 +1,35 @@
+{
+  "name": "solana-auth",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+  },
+  "type": "commonjs",
+  "main": "./src/index.ts",
+  "keywords": [
+    "solana",
+    "next",
+    "next-auth",
+    "react",
+    "web3",
+    "yarn",
+    "blockchain",
+    "nft"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nickfrosty/solana-auth#readme",
+  "bugs": {
+    "url": "https://github.com/nickfrosty/solana-auth/issues"
+  },
+  "repository": {
+    "name": "nickfrosty/solana-auth",
+    "type": "git",
+    "url": "https://github.com/nickfrosty/solana-auth"
+  },
+  "contributors": [
+    {
+      "name": "Nick Frostbutter",
+      "url": "https://github.com/nickfrosty"
+    }
+  ]
+}
