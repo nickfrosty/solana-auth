@@ -1,11 +1,11 @@
 {
   "name": "solana-auth",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "./dist/index.js",
   "description": "",
   "scripts": {
-    "build": "tsup src/index.ts --dts"
+    "build": "tsup src/index.ts --dts && tsc"
   },
   "dependencies": {
     "@solana/wallet-standard-features": "^1.1.0",
