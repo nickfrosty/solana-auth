@@ -1,11 +1,11 @@
 {
   "name": "solana-auth",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "main": "./dist/index.js",
   "description": "",
   "scripts": {
-    "build": "tsup src/index.ts --dts && tsc"
+    "build": "tsup src/index.ts --dts"
   },
   "files": [
     "dist/**/*.d.*",
