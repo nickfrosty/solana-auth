@@ -1,23 +1,22 @@
 {
   "name": "solana-auth",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "description": "",
   "scripts": {
-    "build": "tsup src/index.ts --dts"
+    "build": "tsc"
   },
   "files": [
     "dist/**/*.d.*",
     "dist"
   ],
-  "dependencies": {
+  "peerDependencies": {},
+  "devDependencies": {
     "@solana/wallet-standard-features": "^1.1.0",
     "@solana/wallet-standard-util": "^1.1.0",
     "@solana/web3.js": "1.87.6",
-    "bs58": "^5.0.0"
-  },
-  "devDependencies": {
+    "bs58": "^5.0.0",
     "@types/node": "^20.11.13",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
