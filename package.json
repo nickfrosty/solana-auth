@@ -1,8 +1,8 @@
 {
   "name": "solana-auth",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
   "description": "",
   "scripts": {
     "build": "tsup src/index.ts --dts"
