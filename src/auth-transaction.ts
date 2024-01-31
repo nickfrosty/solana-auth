@@ -1,4 +1,4 @@
-import { SolanaAuth } from "./solana-auth";
+import { SolanaAuth } from "./solana-auth.js";
 import {
   BlockhashWithExpiryBlockHeight,
   Connection,

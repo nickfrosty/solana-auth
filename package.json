@@ -1,17 +1,23 @@
 {
   "name": "solana-auth",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "type": "module",
+  "main": "./dist/index.js",
   "description": "",
-  "dependencies": {
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
   },
-  "peerDependencies":{
-    "bs58": "^5.0.0",
+  "dependencies": {
     "@solana/wallet-standard-features": "^1.1.0",
     "@solana/wallet-standard-util": "^1.1.0",
-    "@solana/web3.js": "1.87.6"
+    "@solana/web3.js": "1.87.6",
+    "bs58": "^5.0.0"
   },
-  "type": "commonjs",
-  "main": "./src/index.ts",
+  "devDependencies": {
+    "@types/node": "^20.11.13",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
   "keywords": [
     "solana",
     "next",
@@ -37,5 +43,9 @@
       "name": "Nick Frostbutter",
       "url": "https://github.com/nickfrosty"
     }
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

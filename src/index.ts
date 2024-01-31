@@ -1,2 +1,2 @@
-export * from "./solana-auth"
-export * from "./auth-transaction"
+export * from "./solana-auth.js";
+export * from "./auth-transaction.js";
