@@ -1,8 +1,14 @@
 {
   "name": "solana-auth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "dependencies": {
+  },
+  "peerDependencies":{
+    "bs58": "^5.0.0",
+    "@solana/wallet-standard-features": "^1.1.0",
+    "@solana/wallet-standard-util": "^1.1.0",
+    "@solana/web3.js": "1.87.6"
   },
   "type": "commonjs",
   "main": "./src/index.ts",
