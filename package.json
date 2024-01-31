@@ -8,7 +8,7 @@
     "build": "tsup src/index.ts --dts && tsc"
   },
   "files": [
-    "dist/**/*.d.ts",
+    "dist/**/*.d.*",
     "dist"
   ],
   "dependencies": {
